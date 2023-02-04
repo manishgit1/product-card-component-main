@@ -1,0 +1,41 @@
+.text{
+       display: inline-flexbox;
+
+}
+
+.card{
+   width: 300px;
+   background-color: rgb(240, 25, 25);
+   margin: 50px;
+
+}
+a{
+    background-color: beige;
+    color: cornflowerblue;
+    display: inline-flexbox;
+    margin: 20px;
+}
+
+
+
+body{
+      background-color: rgb(196, 193, 193);
+
+
+}
+.card-image{
+
+    width: 50%;
+    size: 20px;
+    height: 200px;
+    width: 300px;
+   
+   
+    
+}
+.card-details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(240, 231, 228);
+    font-size: 30px;
+}

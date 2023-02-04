@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.container{
+
+    
+    
+    height: 100vh;
+    background-color: hsl(228, 54%, 67%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+
+.product-image img{
+    
+width: 100%;
+margin-right: 2px;
+border-radius: 10px;
+display: block;
+
+       
+
+}
+
+.product{
+    width: 600px;
+
+    background-color: rgb(187, 213, 230);
+    display: flex;
+    border-radius: 10px;
+ 
+}
+
+.product > * {
+    width: 50%;
+}
+
+.product-content{
+    padding: 20px;
+}
+
+.product-type{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 500, 700;
+    
+    letter-spacing: 3px;
+}
+
+.product-title,
+.product-price
+{
+
+   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+
+}
+
+.product-price{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.description{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(220, 6%, 10%);
+}
+
+.discounted-price{
+    color: hsl(14, 53%, 26%);
+    margin-left: 100px 100px 0px 15px;
+    font-weight: bold;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.original-price{
+
+    text-decoration: line-through;
+     padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+     padding: 7px 80px;
+    background-color: green;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+button img{
+
+
+}
