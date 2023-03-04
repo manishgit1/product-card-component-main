@@ -15,9 +15,11 @@
 .timer-container{
     height: 100vh;
           display: flex;
-           justify-content: center;
+           justify-content: left;
+        
            align-items: center;
-      flex-direction: column;
+           flex-direction: column;
+           
     
     
 }
@@ -29,7 +31,7 @@
          font-family: Arial, Helvetica, sans-serif;
          cursor: pointer;
 
-        border: solid 2px rgb(96, 4, 119);
+        border: solid 1px rgb(96, 4, 119);
         border-radius: 30px;
         padding: 1em;
 
@@ -53,11 +55,46 @@
 .time-left{
 
     font-size: 4em;
-    text-shadow: 4px 5px 2px rgb(208, 200, 100);
+
+    text-shadow: 4px 5px 2px rgb(34, 67, 128);
 }
 
 
 .end-time{
+    margin-top: 20px;
+    font-weight: bold;
 
     
 }
+
+.description{
+
+    padding : 30px 30px;
+    font-size: 25px;
+    display: flex;;
+    
+    
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin: auto;
+    max-width: 500px;
+    
+    color: #fff;
+    background: linear-gradient(to right, red, orange);
+    background-clip: padding-box;
+    border: solid 5px transparent;
+
+    border-radius: 18px;
+
+}
+
+
+    
+
+
+
+
+
+
+
